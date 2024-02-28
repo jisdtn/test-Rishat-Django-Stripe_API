@@ -1,0 +1,1 @@
+# test-Rishat-Django-Stripe_API
