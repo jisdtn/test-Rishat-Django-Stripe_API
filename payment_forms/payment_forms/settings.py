@@ -9,7 +9,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.getenv('SECRET_KEY')
 
-DEBUG = True
+STRIPE_PUBLISHABLE_KEY = 'pk_test_51Oy8pMJ1o8g4ent6nbb0LsKoGEkonaSm6jbu6eOSJpkwPXV9jbS22wbjiMaWoPRLac73LLkNJXHlVPuKTQyB2NJ800u1pBEesI'
+
+DEBUG = False
 
 ALLOWED_HOSTS = []
 

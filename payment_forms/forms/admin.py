@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from payment_forms.forms.models import Item
+from .models import Item
 
 
 @admin.register(Item)
