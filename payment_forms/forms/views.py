@@ -8,12 +8,11 @@ import stripe
 
 from .models import Item
 from django.conf import settings
-# from dotenv import load_dotenv
+from dotenv import load_dotenv
 
-# load_dotenv()
+load_dotenv()
 
-#= os.getenv('stripe.api_key')
-stripe.api_key = 'sk_test_51Oy8pMJ1o8g4ent6gJJbKYakIS2JitAp1qDpBJW9R5dMk4XvuUxW2HHhOXCf4tIXXPUrUrFGxo3gx3aXHQfV7Tuu009TnA8exR'
+stripe.api_key = os.getenv('stripe.api_key')
 
 def success_view(request):
     return render(request, 'success.html')
