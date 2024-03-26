@@ -13,13 +13,7 @@ STRIPE_PUBLISHABLE_KEY = 'pk_test_51Oy8pMJ1o8g4ent6nbb0LsKoGEkonaSm6jbu6eOSJpkwP
 
 DEBUG = False
 
-ALLOWED_HOSTS = [
-    'localhost',
-    '127.0.0.1',
-    '[::1]',
-    'testserver',
-]
-
+ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
