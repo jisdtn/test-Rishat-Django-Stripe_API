@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class Item(models.Model):
     """The Item model"""
     objects = models.Manager()
