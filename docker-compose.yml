@@ -7,7 +7,6 @@ services:
         bash -c "cd payment_forms 
         && python manage.py makemigrations
         && python manage.py migrate
-        && ./../get_random_secret_key.sh
         && python manage.py runserver 0.0.0.0:8000"
     container_name: payment_forms
     ports:
