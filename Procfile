@@ -1,1 +1,1 @@
-web: gunicorn payment_forms.payment_forms.wsgi
+web: gunicorn --chdir ./payment_forms payment_forms.wsgi
