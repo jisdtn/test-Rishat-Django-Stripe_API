@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: python3 manage.py runserver
+web: cd payment_forms && python3 manage.py runserver
