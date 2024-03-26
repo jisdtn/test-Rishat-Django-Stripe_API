@@ -1,6 +1,8 @@
 # Stripe payment forms test project
 ## _Django-приложение, которое использует API Stripe для платежей_
 
+[Ссылка на развернутый проект](https://test-stripe-api-077caba915c4.herokuapp.com/item/1/)
+
 [Техническое задание](https://docs.google.com/document/d/1RqJhk-pRDuAk4pH1uqbY9-8uwAqEXB9eRQWLSMM_9sI/edit)
 
 ## Особенности
