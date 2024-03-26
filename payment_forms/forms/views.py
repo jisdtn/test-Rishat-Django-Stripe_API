@@ -36,7 +36,7 @@ def create_checkout_session(request, item_id):
             'quantity': 1,
         }],
         mode='payment',
-        success_url='http://localhost:8000/success'
+        success_url='http://' + request.META['HTTP_HOST'] + '/success'
     )
     return JsonResponse({'session_id': session.id})
 
